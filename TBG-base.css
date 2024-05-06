@@ -1,0 +1,163 @@
+            .flow {
+                /*Branding Colors*/
+                --brand-background: #00833e; /* Flow background */ /*FFF6DA*/
+                --brand-primary: #FF7700; /* Bold brand color */
+                --brand-secondary: #00833e; /* Secondary bold brand color */
+                --brand-tertiary: #64445b; /* Additional brand color for charts */ 
+                /*Customized Colors*/
+                --color-highlight-background: var(--brand-primary);
+                --color-highlight-font: #0a263d;
+                --color-selected-background: var(--brand-primary);
+                --color-border: #0a263d;
+                /*Chart Colors*/
+                --color-chart-1: var(--brand-secondary);
+                --color-chart-2: var(--brand-primary);
+                --color-chart-3: var(--brand-tertiary);
+                --color-chart-4: var(--brand-background);
+                --color-chart-5: var(--color-yellow);
+                --color-chart-6: var(--color-navy-tint-2);
+                --color-chart-7: var(--color-coral-tint-2);
+                --color-chart-8: var(--color-aqua-tint-2);
+                --color-chart-9: var(--color-blue-tint-2);
+                --color-chart-10: var(--color-blue-tint-2);
+            }
+
+            .flow {
+                background-color: var(--brand-background);
+            }
+
+            .content {
+                background-color: #fff;
+                padding: 30px;
+                border-radius: 5px;
+            }
+            
+            .flow .textarea, .InputBox > textarea {
+                max-width: 100%;
+                width: 100%;
+                resize: vertical;
+                height: 300px;
+            }
+            .subheading {
+                background-color: var(--brand-primary);
+                color: white;
+            }
+            
+            /* Button Customizations */
+            .flow .primary-button button {
+                background-color: var(--brand-primary);
+                color: white;
+            }
+            
+            .flow .page-component-table button {
+                background-color: var(--brand-secondary);
+                color: white;
+            }
+            
+            .flow .back-button > div > button {
+                background-color: #fcb900;
+                border: none;
+            }
+
+            /* Custom Table */
+            .flow .page-component-table > div > div:nth-child(2) {
+                display: none;
+            }
+            .flow .selection-total .button {
+                display: none;
+            }
+            .flow .selection-total-label {
+                display: none;
+            }
+            .flow th {
+                background-color: var(--brand-primary);
+            }
+            .flow tr:hover {
+                background-color: #808080;
+            }
+            .flow tr.selected {
+                background-color: #808080;
+            }
+
+            /* Custom Modal */
+            .flow .modal-title {
+                border: none;
+            }
+            .flow .modal-footer {
+                border: none;
+            }
+            /* Header Image */
+            .flow .header-image {
+                position: relative;
+                left: 8px;
+            }
+            /* Custom Navbar */
+            .flow-nav {
+                font-weight: bold;
+                font-size: 25px;
+                padding-bottom: 34px;
+                color: var(--brand-primary);
+            }
+            .flow .flow-nav .nav-item-list {
+                border-radius: 5px;
+                background-color: white;
+            }
+
+            .flow .flow-nav .nav-item-button {
+                color: var(--brand-secondary);
+                font-weight: 700;
+            }
+            .flow .flow-nav .nav-item-button:hover {
+                color: var(--brand-secondary);
+                font-weight: 700;
+            }
+            .flow .flow-nav .nav-item-button:hover {
+                border-radius: 5px;
+            }
+
+            .flow.nav-horizontal .flow-nav .nav-sidebar-label:not(.nav-sidebar-label-empty) {
+                border-right: none;
+                align-self: center;
+                padding-top: 0;
+                padding-bottom: 0;
+              }
+
+            /* Toggle Customizations */
+            .flow .toggle:checked:after {
+                background-color: var(--brand-background);
+            }
+            .flow .toggle:after {
+                background-color: var(--brand-background);
+            }
+            
+            .secondary-color div {
+                color: var(--brand-secondary);
+            }
+            
+            .flow tr:hover {
+                background-color: #FFF6DA;
+            }
+            
+            .flow tr.selected {
+                background-color: #FFF6DA;
+                color: black;
+            }
+           
+           .flow .select-option:hover, .select-option.highlighted {
+                color: white;
+                background-color: #A9A9AA;
+            }
+            
+            .hidden-button button {
+                display: none;
+            }
+            
+            @media print {
+                .primary-button button {
+                    display: none;
+                }
+                
+                .flow {
+                    background-color: white;
+                }
+            }
